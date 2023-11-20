@@ -1,7 +1,8 @@
 import { Request, Response } from 'express';
 
-export const getSomething = async (req: Request, res: Response) => {
+ const getSomething = async (req: Request, res: Response) => {
 
     res.status(200).json({'beep': 'boop'});
 }
 
+export default getSomething

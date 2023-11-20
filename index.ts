@@ -1,7 +1,7 @@
 import express from 'express';
 const port = 8080;
 
-import { getSomething } from './routes/simple';
+import getSomething from './routes/simple';
 
 const app = express();
 
